@@ -349,6 +349,22 @@ nav {
 }
 
 @media only screen and (max-width: 1200px) {
+    .home-body {
+    overflow-x: hidden;
+    width:100vw;
+}
+
+.row {
+    height: 800px;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: url('images/home/background2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+}
     .row>.orang {
         bottom: -10px;
         transition: transform 0.1s;
