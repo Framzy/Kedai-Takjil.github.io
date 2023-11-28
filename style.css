@@ -340,30 +340,12 @@ nav {
 
 .row>.lentera img {
     width: 80%;
-
-}
-
-
-
-@keyframes munculkeatas {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 100%, 0);
-        transform: translate3d(0, 100%, 0);
-    }
-
-    to {
-        opacity: 1;
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-    }
 }
 
 .row .col-2 {
     color: #fff;
     min-width: 300px;
     flex-basis: 48%;
-    animation: munculkeatas 1s ease-in-out;
 }
 
 .row .col-2 h1 {
@@ -470,7 +452,6 @@ nav {
     background-color: #EAF3F2;
 }
 
-
 h4 {
     color: #555;
 }
@@ -488,7 +469,6 @@ h4 {
 .col-3:hover {
     transform: translateY(-5px)
 }
-
 
 @media only screen and (max-width: 1200px) {
     .row>.orang {
@@ -527,8 +507,6 @@ h4 {
         background-color: #EAF3F2;
         margin-top: 55px;
     }
-
-
 }
 
 @media only screen and (max-width: 600px) {
