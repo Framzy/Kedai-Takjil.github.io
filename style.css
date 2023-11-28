@@ -302,7 +302,7 @@ nav {
 
 /* --------- Home Form -------- */
 .home-body {
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 .row {
@@ -346,9 +346,9 @@ nav {
 
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1200px) {
     .row>.orang {
-        bottom: 10px;
+        bottom: -10px;
         transition: transform 0.1s;
     }
 
@@ -358,45 +358,79 @@ nav {
 
     .row>.lentera {
         position: absolute;
-        margin-top: 40px;
+        margin-top: 50px;
+        transform: translateX(50%);
     }
 
     .row>.lentera img {
-        width: 100%;
+        width: 50%;
     }
 
     .row>.awan {
         position: absolute;
         width: 100%;
-        bottom: -70px;
+        transform: translateY(-100%);
     }
 
+    .small-container .title {
+        text-align: center;
+        margin: 0 auto 50px;
+        /* position: relative; */
+        width: auto;
+        line-height: 40px;
+        color: #fff;
+        -webkit-box-shadow: 0px 10px 8px -10px #fff;
+        -moz-box-shadow: 0px 10px 8px -10px #fff;
+        box-shadow: 0px 10px 8px -10px #fff;
+        background-color: #04605D;
+        padding: 10px;
+    }
 
-    @media only screen and (max-width: 600px) {
-        .row>.orang {
-            bottom: 0px;
-            transition: translateX 1.0s ease-in-out;
-        }
+    .title-underline {
+        display: block;
+        width: 100px;
+        margin: 0 auto;
+        height: 1px;
+        margin-top: -50px;
+        margin-bottom: 50px;
+        background-color: #024442;
+        opacity: 0.1;
+    }
 
-        .row>.orang img {
-            width: 100%;
-        }
-
-        .row>.lentera {
-            position: absolute;
-            width: 10%;
-            margin-top: 50px;
-            transform: translateX(-10%);
-        }
-
-        .row>.awan {
-            position: absolute;
-            width: 100%;
-            bottom: -70px;
-        }
-
+    .information h3 {
+        text-decoration: none;
+        color: #024442;
+        font-size: 14px;
+        height: 80px;
     }
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .row>.orang {
+        bottom: 0px;
+        transition: translateX 1.0s ease-in-out;
+    }
+
+    .row>.orang img {
+        width: 100%;
+    }
+
+    .row>.lentera {
+        position: absolute;
+        width: 30%;
+        margin-top: 50px;
+        transform: translateX(50%);
+    }
+
+    .row>.awan {
+        position: absolute;
+        width: 100%;
+    }
+
+}
+
 
 @keyframes munculkeatas {
     from {
@@ -450,7 +484,7 @@ nav {
 }
 
 .small-container {
-    max-width: 1800px;
+    width: 100vw;
     margin-top: 100px;
     padding: 25px 25px;
     z-index: 1;
@@ -476,7 +510,14 @@ nav {
     align-items: center;
 }
 
-.information>h3 .full-product {
+.information h3 {
+    text-decoration: none;
+    color: #024442;
+    margin-right: 20px;
+
+}
+
+.information .full-product {
     text-decoration: none;
     color: #024442;
     margin-right: 20px;
@@ -506,18 +547,17 @@ nav {
     box-shadow: 0px 3px 5px 0px #999;
 }
 
-.title {
+.small-container .title {
     text-align: center;
     margin: 0 auto 50px;
-    /* position: relative; */
-    width: 400px;
+    width: auto;
     line-height: 40px;
     color: #04605D;
     -webkit-box-shadow: 0px 10px 5px -5px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 10px 5px -5px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 10px 5px -5px rgba(0, 0, 0, 0.1);
     background-color: #EAF3F2;
-    margin-top: 55px;
+    padding: 10px;
 }
 
 .title-underline {
@@ -645,7 +685,12 @@ h4 {
     }
 
     .about-kedai img {
-        width: 550px;
+        width: 400px;
+    }
+
+    .about-row .about-col-2 p {
+        margin-top: 10px;
+        font-size: 14px;
     }
 
     .about-footer {
@@ -683,7 +728,7 @@ h4 {
 .contact-body {
     font-family: 'Poppins', sans-serif;
     background: #EAF3F2;
-    overflow-x: auto;
+    overflow-x: hidden;
     height: 100vh;
 }
 
@@ -864,7 +909,7 @@ h4 {
 
 /* ----------- Product Form ------------*/
 .product-body {
-    overflow-x: auto;
+    overflow-x: hidden;
     background-color: #0E6762;
 }
 
@@ -901,6 +946,8 @@ h4 {
     transition: transform 0.5s;
     margin-bottom: 25px;
 }
+
+
 
 .listProduct .items img {
     width: 95%;
@@ -961,6 +1008,43 @@ h4 {
     transform: translateY(-5px)
 }
 
+@media only screen and (max-width : 900px) {
+
+    .product-title {
+        text-align: center;
+        margin: -40px 0px 40px 5px;
+        width: 300px;
+        line-height: 40px;
+        color: #fff;
+        -webkit-box-shadow: 0px 10px 5px -5px rgba(255, 255, 255, 0.3);
+        -moz-box-shadow: 0px 10px 5px -5px rgba(255, 255, 255, 0.3);
+        box-shadow: 0px 10px 5px -5px rgba(255, 255, 255, 0.3);
+        background-color: #0E6762;
+    }
+
+    .listProduct .items {
+        flex-basis: 30%;
+        min-width: 250px;
+        background-color: #ffffff;
+        padding: 15px;
+        border-radius: 20px;
+        text-align: center;
+        transition: transform 0.5s;
+        margin-bottom: 25px;
+    }
+
+    .product-pesan .btn-pesan button {
+        background: url('images/icons/button-after.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: repeat;
+        width: 100px;
+        height: 23px;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+    }
+}
 
 /* Product Footer */
 .product-footer {
