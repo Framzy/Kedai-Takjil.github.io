@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kedai Takjil | Pembelian Takjil</title>
+    <link rel="icon" type="png" href="images/icons/logo.png">
+</head>
+
+<body class="contact-body">
+    <div class="header" id="section1">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/icons/logo.png" alt="logo aplikasi" />
+                </div>
+                <!-- navbar -->
+                <nav>
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="index.html" onclick="scrollToSection('section1')" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#section2" class="nav-link" id="move-product">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link" id="contact-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="product.html">
+                    <img src="images/icons/cart-icon.png" alt="icon cart" id="cart-icon" />
+                </a>
+                <script src="js/move-cart.js"></script>
+                <script src="js/move-section.js"></script>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <script src="js/hamburger-nav.js"></script>
+            </div>
+        </div>
+        <div class="contact-small-container">
+            <h1 class="contact-title">
+                <div class="bounceInDown">
+                    Hubungi Kami
+                </div>
+            </h1>
+            <div class="contact-row">
+                <div class="contact-kedai">
+                    <img src="images/contact/banner.png" alt="" class="fadeInLeft">
+                </div>
+                <div class="contact-col-2">
+                    <div class="contact-information">
+                        <div class="fadeInRight ">
+                            <p>Anda bisa menghubungi kami melalui: </p>
+                            <div class="contact-info">
+                                <div class="email-img">
+                                    <img src="images/contact/logo-email.png" alt="">
+                                </div>
+                                <div class="contact-info-sub">
+                                    <h2>Email</h2>
+                                    <p>Melayani Anda pada 08.00 - 17.00 WIB</p>
+                                    <p style="color: #04605D;">cskedaitakjil@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-info">
+                                <div class="wa-img">
+                                    <img src="images/contact/logo-whatsapp.png" alt="">
+                                </div>
+                                <div class="contact-info-sub">
+                                    <h2>whatsapp</h2>
+                                    <p>Melayani Anda pada 08.00 - 17.00 WIB</p>
+                                    <p style="color: #04605D;">08951234567</p>
+                                </div>
+                            </div>
+                            <h2>Ikuti Kami</h2>
+                            <div class="social-media">
+                                <div class="instagram">
+                                    <a href="#"><img src="images/contact/logo-instagram.png" alt="" />
+                                        <p>@kedaitakjil</p>
+                                    </a>
+                                </div>
+                                <div class="twitter">
+                                    <a href="#"><img src="images/contact/logo-twitter.png" alt="" />
+                                        <p>@kedaitakjil</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact-footer">
+        <div class="contact-footer-content">
+            <img src="images/icons/logo.png" alt="">
+            <span id="copyright"></span>
+            <script src="js/footer-copyright.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

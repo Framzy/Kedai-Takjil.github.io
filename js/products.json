@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Es Buah",
+        "price": 15000,
+        "image": "images/products/Es-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Es Campur",
+        "price": 15000,
+        "image": "images/products/Es-2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Es Cappucino",
+        "price": 15000,
+        "image": "images/products/Es-3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Es Cendol",
+        "price": 10000,
+        "image": "images/products/Es-4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Es Coklat",
+        "price": 10000,
+        "image": "images/products/Es-5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Es Green Tea",
+        "price": 10000,
+        "image": "images/products/Es-6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Es Kelapa",
+        "price": 15000,
+        "image": "images/products/Es-7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Es Pisang Hijau",
+        "price": 15000,
+        "image": "images/products/Es-8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Es Teh",
+        "price": 10000,
+        "image": "images/products/Es-9.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Es Teler",
+        "price": 15000,
+        "image": "images/products/Es-10.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Es Timunsuri",
+        "price": 15000,
+        "image": "images/products/Es-11.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Es Kolak",
+        "price": 10000,
+        "image": "images/products/Es-12.jpg"
+    }
+]

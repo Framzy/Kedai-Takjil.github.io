@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kedai Takjil | Pembelian Takjil</title>
+    <link rel="icon" type="png" href="images/icons/logo.png">
+</head>
+
+<body class="product-body">
+    <div class="header" id="section1">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo"><img src="images/icons/logo.png" alt="logo aplikasi" /></div>
+                <!---- navbar -->
+                <nav>
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item" id="product-link-replace"><a href="product.html" class="nav-link"
+                                id="product-link">Product</a>
+                        </li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                <img src="images/icons/cart-icon-1.png" alt="icon cart" id="cart-icon" class="cart-icon" />
+                <div class="circle">
+                    <span>2</span>
+                </div>
+                <script src="js/move-cart.js"></script>
+                <script src="js/move-section.js"></script>
+                <div class="hamburger"><span class="bar"></span><span class="bar"></span><span class="bar"></span>
+                </div>
+                <script src="js/hamburger-nav.js"></script>
+            </div>
+        </div>
+    </div>
+    <!-- ------- View Product ------- -->
+    <div class="product-small-container" id="section2">
+        <h1 class="product-title">
+        </h1>
+        <div class="productTab">
+            <div class="listProduct">
+            </div>
+        </div>
+        <div class="cartTab">
+            <div class="listCart">
+                <div class="item">
+                </div>
+            </div>
+            <div class="btn">
+                <a href="product.html">
+                    <p class="close"></p>
+                </a>
+                <div class="btn-info">
+                    <div class="totalAllPrice">
+                        <p>Total</p>
+                        <p class="allPrice"></p>
+                    </div>
+                    <button class="checkOut">Check Out</button>
+                    <p class="buyOption">*Jenis Pembayaran: Cash on Delivery</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="popupCart" id="popupCart-container">
+        <div class="popupCart-content">
+            <span class="close-popupCart">&times;
+            </span>
+            <div class="popupCart-pemesanan"><img src="images/icons/ceklis.png" alt="">
+                <p>Berhasil Dimasukkan Ke Keranjang</p>
+                <button class="popupCart-btn-pesan" id="cart-move">
+                    <img src="images/icons/cart-icon.png" alt="">
+                    <p>Lihat Keranjang</p>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="popupCheckOut">
+        <div class="popupCheckOut-content">
+            <span class="close-popupCheckOut">&times;
+            </span>
+            <div class="popupCheckOut-pemesanan">
+                <div class="popupCheckOut-pemesanan-title">
+                    <p>Alamat Pengantaran</p>
+                </div>
+                <label for="nama">Nama Pembeli</label>
+                <input type="text" id="nama" placeholder="Nama Anda" required></input>
+                <p class="nama-required">Masukan nama anda</p>
+                <label for="alamat">Alamat</label>
+                <textarea id="alamat" cols="30" rows="10" placeholder="Alamat Anda" required></textarea>
+                <p class="alamat-required">Masukan alamat anda</p>
+                <button type="submit" class="popupCheckOut-btn" id="popupCheckOut-btn">
+                    <p>kirim </p>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="popupCheckOutSuccess">
+        <div class="popupCheckOutSuccess-content">
+            <span class="close-popupCheckOutSuccess">&times;</span>
+            <div class="popupCheckOutSuccess-pemesanan">
+                <img src="images/icons/motor.png" alt="">
+                <p>Terima Kasih!</p>
+                <p>Penjual telah menerima pesanan, orderan <br>anda akan segera dikirim.</p>
+            </div>
+        </div>
+    </div>
+    <div class="product-footer">
+        <div class="product-footer-content">
+            <img src="images/icons/logo.png" alt="">
+            <span id="copyright"></span>
+            <script src="js/footer-copyright.js"></script>
+        </div>
+    </div>
+    <script src="js/products.js"></script>
+    <script src="js/cart-popup.js"></script>
+</body>
+
+</html>
