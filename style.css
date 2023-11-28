@@ -448,6 +448,38 @@ nav {
         width: 100%;
     }
 
+    .small-container .title {
+        text-align: center;
+        margin: 0 auto 50px;
+        /* position: relative; */
+        width: auto;
+        line-height: 40px;
+        color: #fff;
+        -webkit-box-shadow: 0px 10px 8px -10px #fff;
+        -moz-box-shadow: 0px 10px 8px -10px #fff;
+        box-shadow: 0px 10px 8px -10px #fff;
+        background-color: #04605D;
+        padding: 10px;
+    }
+
+    .title-underline {
+        display: block;
+        width: 100px;
+        margin: 0 auto;
+        height: 1px;
+        margin-top: -50px;
+        margin-bottom: 50px;
+        background-color: #024442;
+        opacity: 0.1;
+    }
+
+    .information h3 {
+        text-decoration: none;
+        color: #024442;
+        font-size: 14px;
+        height: 80px;
+    }
+
 }
 
 
