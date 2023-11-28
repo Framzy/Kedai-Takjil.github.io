@@ -31,7 +31,7 @@ body {
     font-size: 1.25rem;
     background-color: #111;
     height: 55px;
-    width: 100%;
+    width: 100vw;
 }
 
 .logo img {
