@@ -31,7 +31,7 @@ body {
     font-size: 1.25rem;
     background-color: #111;
     height: 55px;
-    width: 100vw;
+    width: 100%;
 }
 
 .logo img {
@@ -303,12 +303,10 @@ nav {
 /* --------- Home Form -------- */
 .home-body {
     overflow-x: hidden;
-    width:100vw;
 }
 
 .row {
     height: 800px;
-    width:100vw;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -332,9 +330,6 @@ nav {
     bottom: -110px;
 }
 
-.row>.awan img {
-    width: 100%;
-}
 
 .row>.lentera {
     position: absolute;
@@ -348,26 +343,9 @@ nav {
 
 }
 
-@media only screen and (max-width: 1200px) {
-    .home-body {
-    overflow-x: hidden;
-    width:100vw;
-}
-
-.row {
-    overflow-x: hidden;
-    height: 800px;
-    width:100vw;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    background: url('images/home/background2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: repeat;
-}
+@media only screen and (max-width: 1300px) {
     .row>.orang {
-        bottom: -10px;
+        bottom: 10px;
         transition: transform 0.1s;
     }
 
@@ -388,21 +366,20 @@ nav {
     .row>.awan {
         position: absolute;
         width: 100%;
-        transform: translateY(-100%);
+        bottom: -70px;
     }
 
     .small-container .title {
         text-align: center;
-        margin: 0 auto 50px;
-        /* position: relative; */
-        width: auto;
+        margin: 0px 20px 0px 0px;
+        width: 100%;
         line-height: 40px;
-        color: #fff;
-        -webkit-box-shadow: 0px 10px 8px -10px #fff;
-        -moz-box-shadow: 0px 10px 8px -10px #fff;
-        box-shadow: 0px 10px 8px -10px #fff;
-        background-color: #04605D;
-        padding: 10px;
+        color: #04605D;
+        -webkit-box-shadow: 0px 10px 5px -5px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 10px 5px -5px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 10px 5px -5px rgba(0, 0, 0, 0.1);
+        background-color: #EAF3F2;
+        margin-top: 55px;
     }
 
     .title-underline {
@@ -415,16 +392,7 @@ nav {
         background-color: #024442;
         opacity: 0.1;
     }
-
-    .information h3 {
-        text-decoration: none;
-        color: #024442;
-        font-size: 14px;
-        height: 80px;
-    }
 }
-
-
 
 @media only screen and (max-width: 600px) {
     .row>.orang {
@@ -446,38 +414,7 @@ nav {
     .row>.awan {
         position: absolute;
         width: 100%;
-    }
-
-    .small-container .title {
-        text-align: center;
-        margin: 0 auto 50px;
-        /* position: relative; */
-        width: auto;
-        line-height: 40px;
-        color: #fff;
-        -webkit-box-shadow: 0px 10px 8px -10px #fff;
-        -moz-box-shadow: 0px 10px 8px -10px #fff;
-        box-shadow: 0px 10px 8px -10px #fff;
-        background-color: #04605D;
-        padding: 10px;
-    }
-
-    .title-underline {
-        display: block;
-        width: 100px;
-        margin: 0 auto;
-        height: 1px;
-        margin-top: -50px;
-        margin-bottom: 50px;
-        background-color: #024442;
-        opacity: 0.1;
-    }
-
-    .information h3 {
-        text-decoration: none;
-        color: #024442;
-        font-size: 14px;
-        height: 80px;
+        transform: translateY(-20%);
     }
 
 }
@@ -561,14 +498,7 @@ nav {
     align-items: center;
 }
 
-.information h3 {
-    text-decoration: none;
-    color: #024442;
-    margin-right: 20px;
-
-}
-
-.information .full-product {
+.information>h3 .full-product {
     text-decoration: none;
     color: #024442;
     margin-right: 20px;
@@ -601,14 +531,15 @@ nav {
 .small-container .title {
     text-align: center;
     margin: 0 auto 50px;
-    width: auto;
+    /* position: relative; */
+    width: 400px;
     line-height: 40px;
     color: #04605D;
     -webkit-box-shadow: 0px 10px 5px -5px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 10px 5px -5px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 10px 5px -5px rgba(0, 0, 0, 0.1);
     background-color: #EAF3F2;
-    padding: 10px;
+    margin-top: 55px;
 }
 
 .title-underline {
