@@ -355,6 +355,7 @@ nav {
 }
 
 .row {
+    overflow-x: hidden;
     height: 800px;
     width:100vw;
     display: flex;
