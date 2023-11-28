@@ -303,11 +303,12 @@ nav {
 /* --------- Home Form -------- */
 .home-body {
     overflow-x: hidden;
+    width:100vw;
 }
 
 .row {
     height: 800px;
-    width:100%;
+    width:100vw;
     display: flex;
     align-items: center;
     justify-content: flex-end;
